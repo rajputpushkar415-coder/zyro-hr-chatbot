@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-text-splitters
+faiss-cpu
+pypdf
+sentence-transformers
+langsmith
