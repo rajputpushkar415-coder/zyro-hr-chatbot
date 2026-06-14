@@ -23,7 +23,7 @@ st.caption("Ask questions about Zyro Dynamics HR policies.")
 
 @st.cache_resource
 def build_rag_pipeline():
-    DATA_PATH = "zyro-dynamics-hr-corpus"
+    DATA_PATH = "."
 
     pdf_files = sorted([
         os.path.join(DATA_PATH, file)
