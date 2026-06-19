@@ -66,11 +66,11 @@ def build_rag_pipeline():
         }
     )
 
-   llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",
-    google_api_key=os.getenv("GEMINI_API_KEY"),
-    temperature=0
-   )
+    llm = ChatGoogleGenerativeAI(
+        model="gemini-2.0-flash",
+        google_api_key=os.getenv("GEMINI_API_KEY"),
+        temperature=0
+    )
 
     def format_docs(docs):
         return "\n\n".join(
